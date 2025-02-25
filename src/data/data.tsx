@@ -342,14 +342,14 @@ export const contact: ContactSection = {
       href: 'mailto:javierarana115@gmail.com',
     },
     {
+      type: ContactType.Phone,
+      text: '(703) 475-8015',
+      href: 'callto:+1-703-475-8015',
+    },
+    {
       type: ContactType.Location,
       text: 'Woodbridge, VA',
       href: 'https://www.google.com/maps/place/Woodbridge,+VA',
-    },
-    {
-      type: ContactType.Github,
-      text: 'javierarana115',
-      href: 'https://github.com/javierarana115/',
     },
   ],
 };
@@ -358,8 +358,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/javierarana115'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/javier-arana-674a8b2a7/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/javierarana115'},
 ];

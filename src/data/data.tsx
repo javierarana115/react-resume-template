@@ -9,9 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -120,36 +118,36 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Data Cleanup',
     skills: [
       {
-        name: 'English',
+        name: 'Python',
+        level: 9,
+      },
+      {
+        name: 'SQL',
+        level: 9,
+      },
+      {
+        name: 'Excel',
         level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Data Visualization',
     skills: [
       {
-        name: 'React',
+        name: 'Power BI',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'Tableau',
+        level: 6.5,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Matplotlib',
+        level: 8,
       },
     ],
   },
@@ -200,8 +198,8 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
+    title: 'PatriotPath',
+    description: 'Won 3rd place Microsoft x Cloudforce prize.',
     url: 'https://reactresume.com',
     image: porfolioImage2,
   },

@@ -18,7 +18,7 @@ const Portfolio: FC = memo(() => {
         {/* Portfolio Grid */}
         <div className="grid w-full max-w-6xl gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mx-auto">
           {portfolioItems.map((item, index) => {
-            const { title, image } = item;
+            const {title, image} = item;
             return (
               <div className="pb-6" key={`${title}-${index}`}>
                 <div

@@ -63,7 +63,7 @@ export const heroData: Hero = {
         I thrive on transforming raw data into <strong className="text-stone-100">actionable insights</strong> that drive <strong className="text-stone-100">decision-making</strong>. Whether it’s building predictive models, creating interactive dashboards, or exploring the latest trends in machine learning, I am constantly inspired by the power of data to shape the <strong className="text-stone-100">future</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me climbing or hiking <strong className="text-stone-100">mountains</strong>,
+        In my free time, you can catch me climbing or hiking <strong className="text-stone-100">mountains</strong>,
          getting strong at the <strong className="text-stone-100">gym</strong>, or having new experiences{' '}
         <strong className="text-stone-100">traveling</strong>.
       </p>
@@ -154,15 +154,15 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Miscellaneous',
     skills: [
       {
-        name: 'React Native',
+        name: 'SharePoint',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Jira',
+        level: 6,
       },
       {
         name: 'Swift',
@@ -201,24 +201,35 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Test2',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Expected May 2025',
+    location: 'George Mason University',
+    title: "Bachelor's of Science, Management Information Systems",
+    content: <p><strong className="text-stone-600 font-bold">Related Courses include:</strong> Programming for Analytics, Cloud Computing Essentials, Database Management Systems, Introduction to Programming for Business Applications, Networks and Security, Business Analytics II</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'August 2023',
+    location: 'Northern Virginia Community College',
+    title: "Associate's of Science, Business Administration",
+    content: <p></p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Fairfax, VA | January 2025 – Present',
+    location: 'EngineeRD',
+    title: 'Digital Transformation Extern',
+    content: (
+      <p>
+        Using Agile methodologies to plan, perform requirements gathering, design, implement, test, and deploy AI solution for
+        EngineeRD that automates their business processes.
+      </p>
+    ),
+  },
+  {
+    date: 'Washington, DC | January 2025 – Present',
+    location: 'Raben',
+    title: 'Business Operations Intern',
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies you have been working with, and
@@ -227,13 +238,20 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Fairfax, VA | May 2024 – November 2024',
+    location: 'C&R Software',
+    title: 'Functional Consultant Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Developed and implemented an innovative tool to automate the comparison of software environment configurations,
+        reducing analysis time by 92%. <br /><br />
+        Created comprehensive documentation and successfully rolled it out to multiple teams,
+        streamlining processes and improving efficiency.
+        <br /><br />
+        Collaborated with cross-functional teams by creating, assigning, and monitoring Jira issues, improving team
+        transparency.<br /><br />
+        Supported the creation of functional specifications including business and decision flowcharts and user interface
+        prototypes.
       </p>
     ),
   },

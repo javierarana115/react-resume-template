@@ -183,7 +183,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'PatriotPath',
     description: 'Won 3rd place Microsoft x Cloudforce prize.',
-    url: 'https://reactresume.com',
+    url: 'https://www.instagram.com/p/DBPk1d1yGEl/',
     image: porfolioImage2,
   },
   {

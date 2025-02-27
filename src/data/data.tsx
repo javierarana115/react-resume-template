@@ -89,9 +89,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm a current student at George Mason who enjoys taking on new tasks, learning new technologies, and leading others. I'm president of GMU Students Helping Honduras, and also love attending other club events such as Tech for Good, and MISOMA.`,
   aboutItems: [
     {label: 'Location', text: 'Woodbridge', Icon: MapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
@@ -165,8 +163,8 @@ export const skills: SkillGroup[] = [
         level: 6,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Figma',
+        level: 6.5,
       },
     ],
   },
@@ -191,7 +189,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Laptop Refurbishing',
     description: 'Helped refurbish laptops that were donated to public school kids.',
-    url: 'https://reactresume.com',
+    url: 'https://idia.gmu.edu/gmu-va-star/',
     image: porfolioImage3,
   },
 ];

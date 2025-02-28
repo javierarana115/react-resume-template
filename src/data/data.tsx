@@ -60,7 +60,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a George Mason <strong className="text-stone-100">Management Information Systems </strong>student. I'm hoping to break into the <strong className="text-stone-100">Data Analytics/Data Science</strong> industry.
-        I thrive on transforming raw data into <strong className="text-stone-100">actionable insights</strong> that drive <strong className="text-stone-100">decision-making</strong>. Whether it’s building predictive models, creating interactive dashboards, or exploring the latest trends in machine learning, I am constantly inspired by the power of data to shape the <strong className="text-stone-100">future</strong>.
+        I thrive on transforming raw data into <strong className="text-stone-100">actionable insights</strong> that drive <strong className="text-stone-100">decision-making</strong>. Whether it’s manipulating data, creating interactive dashboards, or exploring the latest trends in machine learning, I am constantly inspired by the power of data to shape the <strong className="text-stone-100">future</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me climbing or hiking <strong className="text-stone-100">mountains</strong>,

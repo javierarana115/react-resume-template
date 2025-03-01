@@ -29,16 +29,34 @@ const ContactForm: FC = memo(() => {
     [data],
   );
 
-  const handleSendMessage = useCallback(
-    async (event: React.FormEvent<HTMLFormElement>) => {
-      event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
-      console.log('Data to send: ', data);
-    },
-    [data],
-  );
+const handleSendMessage = useCallback(
+  async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+      
+      if (response.ok) {
+        // Reset form after successful submission
+        setData(defaultData);
+        alert('Message sent successfully!');
+      } else {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to send message');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      alert('Failed to send message. Please try again later.');
+    }
+  },
+  [data, defaultData],
+);
 
   const inputClasses =
     'bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm';

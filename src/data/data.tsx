@@ -230,8 +230,10 @@ export const experience: TimelineItem[] = [
     title: 'Business Operations Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Assisting in the deployment and customization of a CRM system to align with business requirements, improving data
+        management and customer engagement processes.<br /><br />
+        Utilizing Pandas to clean and manipulate data for seamless CRM entry, enhancing data quality and usability.<br /><br />
+        Supporting user training and adoption efforts by creating instructional materials and providing hands-on assistance
       </p>
     ),
   },

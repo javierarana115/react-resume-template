@@ -176,19 +176,19 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Nexus Care',
-    description: 'Won $2500 prize at Georgetown AI Healthcare hackathon.',
+    description: 'Won the $2,500 prize award. Created a prototype for an electronic health record internal AI assistant. Presented business plan and ideas with a live demo on stage to a group of judges. Utilized OpenAI’s GPT-4 Turbo API and React.',
     url: 'https://www.patientsafetytech.com/past-competitions/h2ai',
     image: porfolioImage1,
   },
   {
     title: 'PatriotPath',
-    description: 'Won 3rd place Microsoft x Cloudforce prize.',
+    description: 'Won the Microsoft x Cloudforce track at PatriotHacks. Created a full stack College Career web application implementing Microsoft Azure products such as Azure OpenAI GPT-4o, Azure VM, and deployed on Azure App Services.',
     url: 'https://www.instagram.com/p/DBPk1d1yGEl/',
     image: porfolioImage2,
   },
   {
     title: 'Laptop Refurbishing',
-    description: 'Helped refurbish laptops that were donated to public school kids.',
+    description: 'Helped refurbish laptops that were donated to local public school kids.',
     url: 'https://idia.gmu.edu/gmu-va-star/',
     image: porfolioImage3,
   },

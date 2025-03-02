@@ -29,10 +29,10 @@ const Portfolio: FC = memo(() => {
                   <div className="relative aspect-[4/3]">
                     <Image 
                       alt={title} 
-                      className="h-full w-full object-cover" 
+                      className="h-full w-full object-cover"
+                      fill
                       placeholder="blur" 
                       src={image}
-                      fill
                     />
                   </div>
                   <ItemOverlay item={item} />

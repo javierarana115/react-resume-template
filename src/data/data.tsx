@@ -219,8 +219,10 @@ export const experience: TimelineItem[] = [
     title: 'Digital Transformation Extern',
     content: (
       <p>
-        Using Agile methodologies to plan, perform requirements gathering, design, implement, test, and deploy AI solution for
-        EngineeRD that automates their business processes.
+        Used Agile methodologies to plan, gather requirements, design, implement, test, and deploy a solution automating their
+        business processes through custom Microsoft Copilot AI agents.<br /><br />
+        Drove a 30% increase in sales opportunities by implementing AI-powered automation, streamlining lead generation and
+        customer engagement processes.
       </p>
     ),
   },
@@ -230,10 +232,9 @@ export const experience: TimelineItem[] = [
     title: 'Business Operations Intern',
     content: (
       <p>
-        Assisting in the deployment and customization of a CRM system to align with business requirements, improving data
-        management and customer engagement processes.<br /><br />
-        Utilizing Pandas to clean and manipulate data for seamless CRM entry, enhancing data quality and usability.<br /><br />
-        Supporting user training and adoption efforts by creating instructional materials and providing hands-on assistance
+        Assisted in the deployment and customization of a CRM system within a 3-month period, aligning it with business
+        requirements and improving data management and customer engagement processes.<br /><br />
+        Utilized Pandas to clean and manipulate data for seamless CRM entry, enhancing data quality and usability.
       </p>
     ),
   },
@@ -243,15 +244,11 @@ export const experience: TimelineItem[] = [
     title: 'Functional Consultant Intern',
     content: (
       <p>
-        Developed and implemented an innovative tool to automate the comparison of software environment configurations,
-        reducing analysis time by 92%. <br /><br />
-        Created comprehensive documentation and successfully rolled it out to multiple teams,
-        streamlining processes and improving efficiency.
-        <br /><br />
-        Collaborated with cross-functional teams by creating, assigning, and monitoring Jira issues, improving team
-        transparency.<br /><br />
-        Supported the creation of functional specifications including business and decision flowcharts and user interface
-        prototypes.
+        Created an automated tool for comparing software configurations, cutting analysis time by 92%. Documented and
+        deployed it across multiple teams.<br /><br />
+        Created Power BI dashboards to analyze team productivity through billable hours tracking and enhance project
+        oversight, driving data-informed decision-making.<br /><br />
+        Improved efficiency with cross-functional teams by creating, assigning, and monitoring Jira issues.
       </p>
     ),
   },

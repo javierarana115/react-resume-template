@@ -214,6 +214,18 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'Washington, DC | January 2025 – Present',
+    location: 'Raben',
+    title: 'Business Operations Intern',
+    content: (
+      <p>
+        Assisted in the deployment and customization of a CRM system within a 3-month period, aligning it with business
+        requirements and improving data management and customer engagement processes.<br /><br />
+        Utilized Pandas to clean and manipulate data for seamless CRM entry, enhancing data quality and usability.
+      </p>
+    ),
+  },
+  {
     date: 'Fairfax, VA | January 2025 – Present',
     location: 'EngineeRD',
     title: 'Digital Transformation Extern',
@@ -223,18 +235,6 @@ export const experience: TimelineItem[] = [
         business processes through custom Microsoft Copilot AI agents.<br /><br />
         Drove a 30% increase in sales opportunities by implementing AI-powered automation, streamlining lead generation and
         customer engagement processes.
-      </p>
-    ),
-  },
-  {
-    date: 'Washington, DC | January 2025 – Present',
-    location: 'Raben',
-    title: 'Business Operations Intern',
-    content: (
-      <p>
-        Assisted in the deployment and customization of a CRM system within a 3-month period, aligning it with business
-        requirements and improving data management and customer engagement processes.<br /><br />
-        Utilized Pandas to clean and manipulate data for seamless CRM entry, enhancing data quality and usability.
       </p>
     ),
   },

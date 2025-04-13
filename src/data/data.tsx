@@ -14,6 +14,7 @@ import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -174,6 +175,12 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'Smarbin',
+    description: 'We created Smarbin to bridge the gap between good intentions and proper recycling action, using technology to make sustainability effortless.',
+    url: 'https://devpost.com/software/smarbin?_gl=1*1htxkmu*_gcl_au*NzE3NTIzMDY3LjE3NDQ1MjM2NDk.*_ga*NDM5MjgxNjg4LjE3NDQ1MjM2NDk.*_ga_0YHJK3Y10M*MTc0NDUyMzY0OC4xLjEuMTc0NDUyMzY2NC4wLjAuMA..',
+    image: porfolioImage4,
+  },
   {
     title: 'Nexus Care',
     description: 'Won the $2,500 prize award. Created a prototype for an electronic health record internal AI assistant. Presented business plan and ideas with a live demo on stage to a group of judges. Utilized OpenAI’s GPT-4 Turbo API and React.',

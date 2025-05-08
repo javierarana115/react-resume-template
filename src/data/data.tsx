@@ -8,9 +8,21 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
+import  PythonIcon  from '../../public/icons/PythonIcon';
+import  TableauIcon  from '../../public/icons/TableauIcon';
+import  ExcelIcon  from  '../../public/icons/ExcelIcon';
+import  SQLIcon  from  '../../public/icons/SQLIcon';
+import  AzureIcon  from  '../../public/icons/AzureIcon';
+import MatplotlibIcon from '../../public/icons/MatplotlibIcon';
+import PowerBIIcon from '../../public/icons/PowerBIIcon';
+import SeabornIcon from '../../public/icons/SeabornIcon';
+import ScikitIcon from '../../public/icons/ScikitIcon';
+import AWSIcon from '../../public/icons/AWSIcon';
+import JiraIcon from '../../public/icons/JiraIcon';
+
+
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -45,7 +57,6 @@ export const SectionId = {
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
-  Stats: 'stats',
   Contact: 'contact',
 } as const;
 
@@ -55,18 +66,14 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  * Hero section
  */
 export const heroData: Hero = {
-  imageSrc: heroImage,
-  name: `Hello, I'm Javier Arana.`,
+  name: `Hello, I'm Javier Arana`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a George Mason <strong className="text-stone-100">Management Information Systems </strong>student. I'm hoping to break into the <strong className="text-stone-100">Data Analytics/Data Science</strong> industry.
-        I thrive on transforming raw data into <strong className="text-stone-100">actionable insights</strong> that drive <strong className="text-stone-100">decision-making</strong>. Whether it’s manipulating data, creating interactive dashboards, or exploring the latest trends in machine learning, I am constantly inspired by the power of data to shape the <strong className="text-stone-100">future</strong>.
+        I’m passionate about turning complex data into clear, actionable insights that support smarter business decisions. With experience in data wrangling, dashboard development, and cloud tools, I specialize in delivering analytics solutions that drive real results.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me climbing or hiking <strong className="text-stone-100">mountains</strong>,
-         getting strong at the <strong className="text-stone-100">gym</strong>, or having new experiences{' '}
-        <strong className="text-stone-100">traveling</strong>.
+        I enjoy working with Python, SQL, Power BI, and Tableau to uncover trends, build reports, and streamline data processes. Outside of work, you’ll find me climbing, training in the gym, or exploring new places.
       </p>
     </>
   ),
@@ -90,7 +97,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm a current student at George Mason who enjoys taking on new tasks, learning new technologies, and leading others. I'm president of GMU Students Helping Honduras, and also love attending other club events such as Tech for Good, and MISOMA.`,
+  description: `I’m a recent graduate from George Mason University with a passion for learning new technologies, taking initiative, and leading teams. As president of GMU Students Helping Honduras, I gained hands-on leadership experience, and I actively participated in tech-focused organizations like Tech for Good to stay engaged with emerging trends and collaborative projects.`,
   aboutItems: [
     {label: 'Location', text: 'Woodbridge', Icon: MapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
@@ -110,15 +117,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Python',
-        level: 9,
+        icon: PythonIcon,
       },
       {
         name: 'SQL',
-        level: 9,
+        icon: SQLIcon,
       },
       {
         name: 'Excel',
-        level: 10,
+        icon: ExcelIcon
       },
     ],
   },
@@ -127,15 +134,19 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Power BI',
-        level: 9,
+        icon: PowerBIIcon,
       },
       {
         name: 'Tableau',
-        level: 6.5,
+        icon: TableauIcon,
       },
       {
         name: 'Matplotlib',
-        level: 8,
+        icon: MatplotlibIcon,
+      },
+      {
+        name: 'Seaborn',
+        icon: SeabornIcon
       },
     ],
   },
@@ -144,11 +155,27 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'AWS',
-        level: 7,
+        icon: AWSIcon
       },
       {
         name: 'Azure',
-        level: 8,
+        icon: AzureIcon,
+      },
+    ],
+  },
+  {
+    name: 'Machine Learning',
+    skills: [
+      {
+        name: 'scikit-learn',
+        icon: ScikitIcon,
+      },
+      {
+        name: 'Jira',
+        icon: JiraIcon
+      },
+      {
+        name: 'Figma',
       },
     ],
   },
@@ -157,15 +184,12 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'SharePoint',
-        level: 9,
       },
       {
         name: 'Jira',
-        level: 6,
       },
       {
         name: 'Figma',
-        level: 6.5,
       },
     ],
   },
@@ -177,7 +201,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Smarbin',
-    description: 'We created Smarbin to bridge the gap between good intentions and proper recycling action, using technology to make sustainability effortless.',
+    description: 'Won First place $600 prize award. Created a trash bin that used a ML model to automatically sort items into recycling and trash and displayed a dashboard for the user to see their statistics.',
     url: 'https://devpost.com/software/smarbin?_gl=1*1htxkmu*_gcl_au*NzE3NTIzMDY3LjE3NDQ1MjM2NDk.*_ga*NDM5MjgxNjg4LjE3NDQ1MjM2NDk.*_ga_0YHJK3Y10M*MTc0NDUyMzY0OC4xLjEuMTc0NDUyMzY2NC4wLjAuMA..',
     image: porfolioImage4,
   },

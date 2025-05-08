@@ -21,7 +21,6 @@ export interface HomepageMeta {
  * Hero section
  */
 export interface Hero {
-  imageSrc: string;
   name: string;
   description: JSX.Element;
   actions: HeroActionItem[];
@@ -50,22 +49,12 @@ export interface AboutItem {
 }
 
 /**
- * Stat section
- */
-export interface Stat {
-  title: string;
-  value: number;
-  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
-}
-
-/**
  * Skills section
  */
 
 export interface Skill {
   name: string;
-  level: number;
-  max?: number;
+  icon?: FC<SVGProps<SVGSVGElement>>;
 }
 
 export interface SkillGroup {

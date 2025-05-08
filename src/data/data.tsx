@@ -13,6 +13,7 @@ import ScikitIcon from '../../public/icons/ScikitIcon';
 import SeabornIcon from '../../public/icons/SeabornIcon';
 import SQLIcon from '../../public/icons/SQLIcon';
 import TableauIcon from '../../public/icons/TableauIcon';
+import PowerAutomateIcon from '../../public/icons/PowerAutomateIcon';
 // Other imports
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -136,6 +137,15 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
+    name: 'Machine Learning',
+    skills: [
+      {
+        name: 'scikit-learn',
+        icon: ScikitIcon,
+      },
+    ],
+  },
+  {
     name: 'Cloud Technologies',
     skills: [
       {
@@ -149,32 +159,15 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Machine Learning',
-    skills: [
-      {
-        name: 'scikit-learn',
-        icon: ScikitIcon,
-      },
-      {
-        name: 'Jira',
-        icon: JiraIcon
-      },
-      {
-        name: 'Figma',
-      },
-    ],
-  },
-  {
     name: 'Miscellaneous',
     skills: [
       {
-        name: 'SharePoint',
+        name: 'Power Automate',
+        icon: PowerAutomateIcon,
       },
       {
         name: 'Jira',
-      },
-      {
-        name: 'Figma',
+        icon: JiraIcon,
       },
     ],
   },

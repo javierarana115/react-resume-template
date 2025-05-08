@@ -7,13 +7,13 @@ import AzureIcon from '../../public/icons/AzureIcon';
 import ExcelIcon from '../../public/icons/ExcelIcon';
 import JiraIcon from '../../public/icons/JiraIcon';
 import MatplotlibIcon from '../../public/icons/MatplotlibIcon';
+import PowerAutomateIcon from '../../public/icons/PowerAutomateIcon';
 import PowerBIIcon from '../../public/icons/PowerBIIcon';
 import PythonIcon from '../../public/icons/PythonIcon';
 import ScikitIcon from '../../public/icons/ScikitIcon';
 import SeabornIcon from '../../public/icons/SeabornIcon';
 import SQLIcon from '../../public/icons/SQLIcon';
 import TableauIcon from '../../public/icons/TableauIcon';
-import PowerAutomateIcon from '../../public/icons/PowerAutomateIcon';
 // Other imports
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';

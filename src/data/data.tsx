@@ -8,17 +8,17 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import  PythonIcon  from '../../public/icons/PythonIcon';
-import  TableauIcon  from '../../public/icons/TableauIcon';
-import  ExcelIcon  from  '../../public/icons/ExcelIcon';
-import  SQLIcon  from  '../../public/icons/SQLIcon';
+import AWSIcon from '../../public/icons/AWSIcon';
 import  AzureIcon  from  '../../public/icons/AzureIcon';
+import  ExcelIcon  from  '../../public/icons/ExcelIcon';
+import JiraIcon from '../../public/icons/JiraIcon';
 import MatplotlibIcon from '../../public/icons/MatplotlibIcon';
 import PowerBIIcon from '../../public/icons/PowerBIIcon';
-import SeabornIcon from '../../public/icons/SeabornIcon';
+import  PythonIcon  from '../../public/icons/PythonIcon';
 import ScikitIcon from '../../public/icons/ScikitIcon';
-import AWSIcon from '../../public/icons/AWSIcon';
-import JiraIcon from '../../public/icons/JiraIcon';
+import SeabornIcon from '../../public/icons/SeabornIcon';
+import  SQLIcon  from  '../../public/icons/SQLIcon';
+import  TableauIcon  from '../../public/icons/TableauIcon';
 
 
 import GithubIcon from '../components/Icon/GithubIcon';

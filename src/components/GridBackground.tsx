@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from 'react';
+import {useEffect, useRef, useState} from 'react';
 
 const GridBackground = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -163,8 +163,8 @@ const GridBackground = () => {
 
   return (
     <canvas
-      ref={canvasRef}
       className="fixed inset-0 w-full h-full -z-10 pointer-events-none opacity-80 dark:opacity-60 transition-opacity duration-300"
+      ref={canvasRef}
     />
   );
 };

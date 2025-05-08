@@ -1,13 +1,13 @@
 import * as React from "react";
-import { SVGProps } from "react";
+import {SVGProps} from "react";
 
 const SvgIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
-    width="630"
     height="630"
     viewBox="0 0 630 630"
+    width="630"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
     {...props} 
   >
     <defs>
@@ -24,12 +24,12 @@ const SvgIcon = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="100%" stopColor="#F3CD32"></stop>
       </linearGradient>
       <filter
+        filterUnits="objectBoundingBox"
+        height="116.9%"
         id="filter-4"
         width="136.5%"
-        height="116.9%"
         x="-9.1%"
         y="-6.3%"
-        filterUnits="objectBoundingBox"
       >
         <feOffset
           dx="20"
@@ -48,39 +48,39 @@ const SvgIcon = (props: SVGProps<SVGSVGElement>) => (
         ></feColorMatrix>
       </filter>
       <path
-        id="path-3"
         d="M346 604v26H153c-14.36 0-26-11.64-26-26V183c0-14.36 11.64-26 26-26h167c14.36 0 26 11.64 26 26z"
+        id="path-3"
       ></path>
     </defs>
     <g
-      id="PBI-Logo"
       fill="none"
       fillRule="evenodd"
+      id="PBI-Logo"
       stroke="none"
       strokeWidth="1"
     >
       <g id="Group" transform="translate(77.5)">
         <rect
-          id="Rectangle"
-          width="219"
+          fill="url(#linearGradient-1)"
           height="630"
+          id="Rectangle"
+          rx="26"
+          width="219"
           x="256"
           y="0"
-          fill="url(#linearGradient-1)"
-          rx="26"
         ></rect>
         <g id="Combined-Shape">
-          <use xlinkHref="#path-3" fill="#000" filter="url(#filter-4)"></use>
-          <use xlinkHref="#path-3" fill="url(#linearGradient-2)"></use>
+          <use fill="#000" filter="url(#filter-4)" xlinkHref="#path-3"></use>
+          <use fill="url(#linearGradient-2)" xlinkHref="#path-3"></use>
         </g>
         <path
-          id="Combined-Shape"
-          fill="url(#linearGradient-5)"
           d="M219 604v26H26c-14.36 0-26-11.64-26-26V341c0-14.36 11.64-26 26-26h167c14.36 0 26 11.64 26 26z"
+          fill="url(#linearGradient-5)"
+          id="Combined-Shape"
         ></path>
       </g>
     </g>
   </svg>
 );
 
-export default SvgIcon;
+export default React.memo(SvgIcon) as React.FC<SVGProps<SVGSVGElement>>;

@@ -1,5 +1,5 @@
 import {StaticImageData} from 'next/image';
-import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
+import {ComponentType, FC, ForwardRefExoticComponent, SVGProps} from 'react';
 
 import {IconProps} from '../components/Icon/Icon';
 
@@ -54,7 +54,7 @@ export interface AboutItem {
 
 export interface Skill {
   name: string;
-  icon?: FC<SVGProps<SVGSVGElement>>;
+  icon?: ComponentType<SVGProps<SVGSVGElement>>;
 }
 
 export interface SkillGroup {

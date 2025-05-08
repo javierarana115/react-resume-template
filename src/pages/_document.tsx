@@ -1,9 +1,10 @@
-import { Head, Html, Main, NextScript } from 'next/document';
-import { robotoCondensed } from '../utils/fonts';
+import {Head, Html, Main, NextScript} from 'next/document';
+
+import {robotoCondensed} from '../utils/fonts';
 
 export default function Document() {
   return (
-    <Html lang="en" className={robotoCondensed.variable}>
+    <Html className={robotoCondensed.variable} lang="en">
       <Head>
         <meta charSet="utf-8" />
         <meta content="notranslate" name="google" />

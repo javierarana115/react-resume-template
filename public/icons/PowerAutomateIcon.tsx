@@ -7,6 +7,7 @@ const SvgIcon = (props: SVGProps<SVGSVGElement>) => (
     width="48"
     height="48"
     viewBox="0 0 48 48"
+    {...props}
   >
     <linearGradient
       id="1~WE0Lz3GgLZUex~1j_nwa"

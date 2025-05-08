@@ -7,6 +7,9 @@ module.exports = {
       colors: {
         yellow: '#efc603',
       },
+      fontFamily: {
+        sans: ['var(--font-roboto-condensed)', 'sans-serif'],
+      },
       keyframes: {
         typing: {
           '0%, 100%': {width: '0%'},

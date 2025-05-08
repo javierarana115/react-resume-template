@@ -8,7 +8,14 @@
     "ecmaVersion": 2020,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "simple-import-sort", "import", "react", "react-memo", "react-hooks"],
+  "plugins": [
+    "@typescript-eslint",
+    "simple-import-sort",
+    "import",
+    "react",
+    "react-memo",
+    "react-hooks"
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -16,7 +23,12 @@
     "plugin:@next/next/recommended",
     "prettier"
   ],
-  "ignorePatterns": ["*/public", "*/node_modules/*", "*/.next/*", "*/dist/*"],
+  "ignorePatterns": [
+    "*/public",
+    "*/node_modules/*",
+    "*/.next/*",
+    "*/dist/*"
+  ],
   "rules": {
     "react/display-name": "off",
     "react-memo/require-usememo": "off",
@@ -36,8 +48,8 @@
     "import/no-duplicates": "error",
     "import/order": "off",
     "no-irregular-whitespace": "off",
-    "@typescript-eslint/no-unused-vars": ["warn", {"argsIgnorePattern": "^_"}],
-    "object-curly-spacing": ["error", "never"],
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "object-curly-spacing": ["error", "never"],  // This will make sure it's {test} with no spaces
     "react/jsx-curly-brace-presence": [2, "never"],
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-sort-props": "error",

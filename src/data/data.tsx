@@ -1,26 +1,19 @@
-import {
-  AcademicCapIcon,
-  ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  CalendarIcon,
-  FlagIcon,
-  MapIcon,
-  SparklesIcon,
-} from '@heroicons/react/24/outline';
+import {AcademicCapIcon, ArrowDownTrayIcon, BuildingOffice2Icon, CalendarIcon, FlagIcon, MapIcon, SparklesIcon} from '@heroicons/react/24/outline'; // External library (heroicons)
+import * as React from 'react'; // External library (React)
 
+// Custom icons
 import AWSIcon from '../../public/icons/AWSIcon';
-import  AzureIcon  from  '../../public/icons/AzureIcon';
-import  ExcelIcon  from  '../../public/icons/ExcelIcon';
+import AzureIcon from '../../public/icons/AzureIcon';
+import ExcelIcon from '../../public/icons/ExcelIcon';
 import JiraIcon from '../../public/icons/JiraIcon';
 import MatplotlibIcon from '../../public/icons/MatplotlibIcon';
 import PowerBIIcon from '../../public/icons/PowerBIIcon';
-import  PythonIcon  from '../../public/icons/PythonIcon';
+import PythonIcon from '../../public/icons/PythonIcon';
 import ScikitIcon from '../../public/icons/ScikitIcon';
 import SeabornIcon from '../../public/icons/SeabornIcon';
-import  SQLIcon  from  '../../public/icons/SQLIcon';
-import  TableauIcon  from '../../public/icons/TableauIcon';
-
-
+import SQLIcon from '../../public/icons/SQLIcon';
+import TableauIcon from '../../public/icons/TableauIcon';
+// Other imports
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -28,17 +21,9 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
-import {
-  About,
-  ContactSection,
-  ContactType,
-  Hero,
-  HomepageMeta,
-  PortfolioItem,
-  SkillGroup,
-  Social,
-  TimelineItem,
-} from './dataDef';
+// Types
+import {About, ContactSection, ContactType, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem} from './dataDef';
+
 
 /**
  * Page meta data

@@ -36,7 +36,7 @@ const MachineLearningProjectPage: FC = () => {
             <Link className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" href="#visualizations">
               View Visualizations
             </Link>
-            <Link className="px-6 py-3 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors" href="https://github.com/yourusername/project-repo" target="_blank">
+            <Link className="px-6 py-3 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors" href="https://github.com/javierarana115/Student-Habits-vs-Academic-Performance/tree/main" target="_blank">
               GitHub Repository
             </Link>
           </div>

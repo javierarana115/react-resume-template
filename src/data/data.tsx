@@ -210,7 +210,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'Expected May 2025',
+    date: 'May 2025',
     location: 'George Mason University',
     title: "Bachelor's of Science, Management Information Systems",
     content: <p><strong className="text-stone-600 font-bold">Related Courses include:</strong> Programming for Analytics, Cloud Computing Essentials, Database Management Systems, Introduction to Programming for Business Applications, Networks and Security, Business Analytics II</p>,

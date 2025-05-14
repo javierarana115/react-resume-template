@@ -16,7 +16,7 @@ const Header = dynamic(() => import('../components/Sections/Header'), {ssr: fals
 const MachineLearningProjectPage: FC = () => {
   const pageMeta = {
     ...homePageMeta,
-    title: `${homePageMeta.title} | Customer Churn Prediction`,
+    title: `${homePageMeta.title} | Machine learning project`,
     description: 'Machine learning model predicting customer churn with 92% accuracy',
   };
 

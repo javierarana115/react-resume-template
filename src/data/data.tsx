@@ -1,4 +1,4 @@
-import {AcademicCapIcon, ArrowDownTrayIcon, BuildingOffice2Icon, CalendarIcon, FlagIcon, MapIcon, SparklesIcon} from '@heroicons/react/24/outline'; // External library (heroicons)
+import {AcademicCapIcon, ArrowDownTrayIcon, BuildingOffice2Icon, CalendarIcon, MapIcon, SparklesIcon} from '@heroicons/react/24/outline'; // External library (heroicons)
 import * as React from 'react'; // External library (React)
 
 // Custom icons
@@ -89,7 +89,6 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'Woodbridge', Icon: MapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Honduras/USA', Icon: FlagIcon},
     {label: 'Interests', text: 'Climbing, Technology, Traveling', Icon: SparklesIcon},
     {label: 'School', text: 'George Mason University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Raben', Icon: BuildingOffice2Icon},

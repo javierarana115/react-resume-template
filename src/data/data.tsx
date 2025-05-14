@@ -14,6 +14,7 @@ import ScikitIcon from '../../public/icons/ScikitIcon';
 import SeabornIcon from '../../public/icons/SeabornIcon';
 import SQLIcon from '../../public/icons/SQLIcon';
 import TableauIcon from '../../public/icons/TableauIcon';
+import mlProjectImage from '../../public/portfolio/LinearRegression.png';
 // Other imports
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -23,8 +24,7 @@ import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
 // Types
-import {About, ContactSection, ContactType, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem} from './dataDef';
-
+import {About, ContactSection, ContactType, DataAnalysisItem, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem} from './dataDef';
 
 /**
  * Page meta data
@@ -44,6 +44,8 @@ export const SectionId = {
   Resume: 'resume',
   Skills: 'skills',
   Contact: 'contact',
+  DataProjects: 'data-projects',
+  MachineLearning: 'machine-learning',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -295,4 +297,18 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/javier-arana-674a8b2a7/'},
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/javierarana115'},
+];
+
+export const dataAnalysisItems: DataAnalysisItem[] = [
+  {
+    title: "Student Habits VS. Academic Performance",
+    description: "Data cleaning, and exploratory analysis using Python Pandas and scikit-learn.",
+    image: mlProjectImage,
+    url: "/machine-learning"
+  },
+  {
+    title: "More projects coming soon...",
+    description: "",
+    image: porfolioImage1
+  },
 ];

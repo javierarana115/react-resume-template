@@ -137,3 +137,10 @@ export interface Social {
   Icon: FC<IconProps>;
   href: string;
 }
+
+export interface DataAnalysisItem {
+  title: string;
+  description: string;
+  url?: string;
+  image: StaticImageData | string; // Allow both types
+}

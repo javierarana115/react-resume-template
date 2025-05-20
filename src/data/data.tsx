@@ -226,17 +226,20 @@ export const experience: TimelineItem[] = [
   {
     date: 'Washington, DC | January 2025 – Present',
     location: 'Raben',
-    title: 'Business Operations Intern',
+    title: 'Data Analyst Intern',
     content: (
       <p>
+        Created interactive dashboards in Power BI and compelling visualizations using Matplotlib and Seaborn to analyze
+        business development data, uncovering key trends and insights that drove strategic decision-making.<br /><br />
+        Utilized Pandas to clean and manipulate data for seamless CRM entry, enhancing data quality and usability.<br /><br />
         Assisted in the deployment and customization of a CRM system within a 3-month period, aligning it with business
-        requirements and improving data management and customer engagement processes.<br /><br />
-        Utilized Pandas to clean and manipulate data for seamless CRM entry, enhancing data quality and usability.
+        requirements and improving data management and customer engagement processes.
+        
       </p>
     ),
   },
   {
-    date: 'Fairfax, VA | January 2025 – Present',
+    date: 'Fairfax, VA | January 2025 – May 2025',
     location: 'EngineeRD',
     title: 'Digital Transformation Extern',
     content: (
